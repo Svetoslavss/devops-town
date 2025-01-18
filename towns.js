@@ -2,6 +2,10 @@ $(document).ready(function() {
 	$('#btnDelete').click(deleteTown)
 });
 
+$(document).ready(function() {
+	$('#btnAdd').click(addTown);
+});
+
 function deleteTown() {
 	let townName = $('#townName').val();
 	$('#townName').val('');
